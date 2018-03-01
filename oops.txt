@@ -1,0 +1,30 @@
+Q1) what is OOPs ?
+Answer 1)
+Object oriented programming is a guideline for the prgrammer to program in an efficient and more managed way.
+OOP principles leads to less error in the code, incresase collaboration among the developers and ease of maintenance.
+
+Traditional C style vs OOP style
+
+running();
+
+Q) What is an Object ?
+Answer 2)
+Any entity is an object.
+
+How to represent real world things in a program
+
+Object is complete in terms of itself, as it contains memory structure to hold information needed to describe itself and set of operations that can affect or acess its information set.
+
+Q3) What Encapsulation ?
+Answer 3)
+An act of combining properties and methods, related to the same object, is known as Encapsulation.
+
+Q4) Why Encapsulation?
+Object equipped with sufficent information set and set of operations.
+
+Any system can be assumed as a collection of objects.
+
+These objects are capable to interact wiyh each other using various methods.
+
+
+
