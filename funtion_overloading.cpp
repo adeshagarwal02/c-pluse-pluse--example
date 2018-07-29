@@ -2,7 +2,8 @@
  * function overloading
  * defination of the functions with same name 
  * when one fuction name is overloaded with diffrent jobs is kown as function overloading
- *
+ * it is way to implement polymorphism
+ * rule of function overloading name of function should be same and the argument should be diffrent  
  */
 #include<iostream>
 using namespace std;

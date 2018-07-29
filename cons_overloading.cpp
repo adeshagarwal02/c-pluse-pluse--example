@@ -23,15 +23,18 @@ class com
 	public:
 		com(int x, int y)  //peramitarized 
 		{
+	//		cout<<"C1"<<endl;
 			a = x;
 			b = y;
 		}
 		com(int x)// peramitrized 
 		{
+	//		cout<<"C2"<<endl;
 			a = x;b = 0;
 		}
 		com()
 		{// defaut 
+	//		cout<<"C3"<<endl;
 		}
 /*		com(com &c)// copy constractor 
 		{

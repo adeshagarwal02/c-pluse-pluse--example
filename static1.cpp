@@ -1,9 +1,10 @@
 /*
  * static mamber variable declered inside the class they are also called class variable 
- * this variable will not get any memory inside the class 
- * They must be deffined autside the class
+ * this variable will not get any memory declaring inside the class 
+ * They must be defined outside the class
  * static member variable does not belong to any object, but to whole class.
  * there will be only one copy of static member variable
+ * They can be invoke with or without object 
  * 
  * */
 #include<iostream>
@@ -16,7 +17,8 @@ class Account
 	public:
 		static float ab;
 		void setBalance(int b)
-		{balance = b;}
+		{balance = b;
+		}
 		static void setRoi(float r)//static member function//they can be called with and without object//this function can acess only static member variable 
 		{roi = r;cout<<roi<<endl;}
 		void setnew(float r)

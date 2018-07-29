@@ -1,6 +1,6 @@
 /*
  * we can use private and public inside the structure in c++ it will give data sicurity 
- *
+ * incapsulation 
  */
 #include<iostream>
 using namespace std;

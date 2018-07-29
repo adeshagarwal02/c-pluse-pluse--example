@@ -17,7 +17,7 @@ struct book
 };
 int main()
 {
-	book b1;
+	book b1;// it not requred to write struct keyword it is optional 
 	b1.input();
 	b1.display();
 	return 0;
