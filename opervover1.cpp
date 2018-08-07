@@ -17,7 +17,7 @@ class comp
 		{ a = x; b = y;}
 		void showdata()
 		{cout<<"a="<<a<<" "<<"b="<<b<<endl;}
-		comp operator +(comp x)
+ 	comp operator +(comp x)
 		{ 
 			comp t;
 			t.a = a + x.a;
