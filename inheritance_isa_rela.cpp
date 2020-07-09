@@ -1,9 +1,9 @@
 /*                      Is a relationship
  * Banana is a fruit
  * Association 
- * -Aggregation 
- * -Composition
- * -Inheritance
+ * 	-Aggregation 
+ * 	-Composition
+ * 	-Inheritance
  *  Is a relationship is always implemented as a public inheritance 
  *  
  */

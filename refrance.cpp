@@ -19,7 +19,7 @@ class ref
 	private:
 		int a;
 	public:
-		void setdata(int &k)
+		void setdata(int k)
 		{
 			a = k;
 		}
@@ -29,7 +29,12 @@ class ref
 int main()
 {
 	ref r;
-	r.setdata(y);
+	y++;
+	x++;
+	r.setdata(x);
 	r.showdata();
+	cout<<&y<<endl;
+	cout<<&x<<endl;
+
 	return 0;
 }

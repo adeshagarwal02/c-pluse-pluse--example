@@ -25,9 +25,10 @@ class dynamic
 		void display()
 		{
 			cout<<"a ="<<a<<",b ="<<b<<",*p ="<<*p<<endl;
+			cout << "address of p" << p <<endl;
 		}
 };
-int main()
+int main(void)
 {
 	dynamic d1,d2(2,3,4),d3 = d2;
 	d1.display();

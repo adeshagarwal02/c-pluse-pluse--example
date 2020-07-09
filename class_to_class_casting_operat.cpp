@@ -13,6 +13,10 @@ class item
                 {}
                 item(int x, int y):a(x),b(y)
 		{}
+	//	item(int x, int y)
+	//	{
+	//		a = x;b = y;
+	//	}
                 void showData()
                 {cout<<"a="<<a<<",b="<<b<<endl;}
 };

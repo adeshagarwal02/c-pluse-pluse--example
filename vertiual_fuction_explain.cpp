@@ -1,3 +1,10 @@
+/*
+ *Base class pointer can point to the object of any of its descendent class but its converse is not true.
+ *
+ */
+
+
+
 #include<iostream>
 using namespace std;
 class A
@@ -11,9 +18,9 @@ class A
 class B:public A
 {
 	public:
-		void f1(){cout<<"f1 class B"<<endl; }
-		void f2(){cout<<"f2 class B"<<endl;}
-		void f4(int x){cout<<"f4 class B"<<endl;}
+		void f1(){cout<<"f1 class B"<<endl; } // overriding  // outomatic virtual
+		void f2(){cout<<"f2 class B"<<endl;} // overriding  // outomatic virtual
+		void f4(int x){cout<<"f4 class B"<<endl;}// hidding // not a virtual 
 
 };
 int main()
@@ -29,8 +36,8 @@ int main()
 	return 0;
 }
 /*Rules 
- * if any class have a virtual function than the compiler create a variable pointer which is *vptr
+ * if any class have a virtual function than the compiler create a variable pointer which is *vptr  (2 byte)
  *but its child class will not have *vptr it will inherated from the parent 
- *Compile will also make a static array this array will contain pointer of the vertual function this array is called vtable. Dcendendent class will also have vtable 
+ *Compile will also make a static array this array will contain pointer of the virtual function this array is called vtable. Dcendendent class will also have vtable 
 
  */

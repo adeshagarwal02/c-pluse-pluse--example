@@ -26,7 +26,7 @@ istream& operator>>(istream &din,comp &c)
 	return din;
 }
 
-int main()
+int main(void)
 {
 	comp c1;
 	cout<<"Enter a complex number";

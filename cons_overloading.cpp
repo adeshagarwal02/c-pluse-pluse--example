@@ -10,7 +10,7 @@
  * distructor can't take argument
  * distructor invoke when object destroyed.
  * distructor cant be overloaded
- * 
+ * distructor is defined to release resources allocated to an object. 
  *
 */
 #include<iostream>

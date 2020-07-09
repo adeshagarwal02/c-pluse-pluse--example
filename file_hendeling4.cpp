@@ -12,9 +12,8 @@ using namespace std;
 int main()
 {
 	ofstream fout;
-	fout.open("file.txt",ios::binary);
-	//fout.open("file.txt");
-	fout<<"my name is\nAdesh";
+	fout.open("file.txt",ios::app);
+	fout<<"C++ file hendeling \n";
 	fout.close();	
 	return 0;
 }

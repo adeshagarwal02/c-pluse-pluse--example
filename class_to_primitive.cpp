@@ -14,8 +14,9 @@ class comp
 		}
 		void showData()
 		{cout<<"a="<<a<<",b="<<b<<endl;}
-		operator int()
+		operator int()  //casting operator 
 		{
+			cout<<"operator"<<endl;
 			return(b);
 		}
 };

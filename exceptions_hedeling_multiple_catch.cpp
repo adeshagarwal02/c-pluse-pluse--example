@@ -21,6 +21,10 @@ void test(int x)
 	{
 		cout<<"cought a chareter:"<<x<<endl;
 	}
+	catch(...)
+	{
+		cout<<"any"<<endl;
+	}
 }
 int main()
 {

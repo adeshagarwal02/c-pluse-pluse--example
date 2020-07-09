@@ -13,6 +13,7 @@ class Account
 {
 	private:
 		int balance;// instance member variable 
+		int newvr;
 		static float roi;// static member variabe//class variable
 	public:
 		static float ab;
@@ -21,6 +22,11 @@ class Account
 		}
 		static void setRoi(float r)//static member function//they can be called with and without object//this function can acess only static member variable 
 		{roi = r;cout<<roi<<endl;}
+	/*	 static void access_nonstatic(int r)
+		{
+			newvr = r;
+			cout<<newvr<<endl;
+		}*/  //static member functoion cant acces non static member variable.
 		void setnew(float r)
 		{roi =r; cout<<roi<<endl;}
 };
@@ -32,7 +38,8 @@ int main()
 	Account::ab = 2;// static member variable declered in public 
 	a1.setRoi(4.5);// calling wiith object
 	a1.setnew(2.2);
-	Account::setRoi(3.3);// calling stati member function without object 
+	Account::setRoi(3.3);// calling static member function without object 
+	//a1.access_nonstatic(85);  //can't access 
 	cout<<Account::ab<<endl;
 	return 0;
 }

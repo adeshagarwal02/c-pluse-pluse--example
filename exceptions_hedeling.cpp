@@ -18,6 +18,7 @@ int main()
 	cout<<"welcome"<<endl;
 	try{
 		throw 10;
+		//throw;
 		cout<<"In try"<<endl;
 	}
 	catch(int e){

@@ -19,7 +19,7 @@ void main()
 {
 	b obj;
 	obj.f1();//B
-//	obj.f2();//error
+//	obj.f2();//error  // compile will not search in parent class since child class have same function name f2
 	obj.f2(4);//B
 }
 /*

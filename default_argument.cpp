@@ -4,10 +4,11 @@
  */
 #include<iostream>
 using namespace std;
-int add(int,int =0,int =0);
+int add(int = 0,int =0,int =0);
 int main()
 {
 	int a,b;
+	cout<<add()<<endl;
 	cout<<add(4)<<endl;
 	cout<<add(4,3)<<endl;
 	cout<<add(5,6,7)<<endl;

@@ -29,8 +29,11 @@ class Box
 };
 int main()	
 {
-	Box b1;
+	Box b1,*p,b2;
+	p = &b2;//object pointer
 	b1.getdem(2,3,4);
 	b1.showdem();
+	p->getdem(12,13,14); // calling by the pointer
+	p->showdem(); // calling by the pointer
 	return 0;
 }
