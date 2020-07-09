@@ -1,9 +1,7 @@
-/*                             Virtual Distructor
- *                              
- */
-
 #include <iostream>
+
 using namespace std;
+
 class A
 {
 	private:
@@ -13,27 +11,24 @@ class A
 		{
 			cout<<"construtor of A"<<endl;
 		}
-		virtual ~A()
+		~A()
 		{
-			cout<<"distrutor of A"<<endl;
+			cout<<"Distructor of A"<<endl;
 		}
 };
 
 class B:public A
 {
 	private:
-		int x,y;
-		int *p;
+		int a,b;
 	public:
 		B()
 		{
 			cout<<"construtor of B"<<endl;
-			p = new int;
 		}
 		~B()
 		{
-			cout<<"distrutor of B"<<endl;
-			delete p;
+			cout<<"Distructor of B"<<endl;
 		}
 };
 
@@ -42,6 +37,6 @@ int main(void)
 	A *p;
 	p = new B;
 	delete p;
-
 	return 0;
+
 }
