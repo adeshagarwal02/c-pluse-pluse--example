@@ -27,7 +27,7 @@ class comp
 void func(comp c)
 {
 	cout<<"sum="<<c.x+c.y<<endl;
-	c.x = c.x +1;  // direct access of private mamber of a class 
+	c.x = c.x +1;  // access of private mamber of a class
 	c.y = c.y +1;
 }
 void func1(comp &c)
